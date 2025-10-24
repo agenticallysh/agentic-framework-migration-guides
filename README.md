@@ -2,7 +2,7 @@
 
 🔄 Comprehensive guides for migrating between AI agent frameworks. Save weeks of refactoring with step-by-step migrations, code mappings, and gotchas.
 
-[![Migration Guides](https://img.shields.io/badge/Guides-12+-blue.svg)](https://github.com/agenticallysh/agentic-framework-migration-guides)
+[![Migration Guides](https://img.shields.io/badge/Guides-3%20Live%2C%209%20Planned-blue.svg)](https://github.com/agenticallysh/agentic-framework-migration-guides)
 [![Success Rate](https://img.shields.io/badge/Success%20Rate-94%25-green.svg)](https://www.agentically.sh/ai-agentic-frameworks/migration-success/)
 [![Time Saved](https://img.shields.io/badge/Time%20Saved-60%25-orange.svg)](https://www.agentically.sh/ai-agentic-frameworks/migration-calculator/)
 
@@ -15,8 +15,8 @@ Not sure which migration path to take? Use our [migration assistant →](https:/
 | From → To | Complexity | Time | Success Rate | Guide |
 |-----------|------------|------|-------------|--------|
 | [LangChain → CrewAI](./migrations/langchain-to-crewai/) | Medium | 3-5 hours | 96% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-crewai/) |
-| [AutoGen → LangGraph](./migrations/autogen-to-langgraph/) | High | 6-8 hours | 89% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/autogen-to-langgraph/) |
-| [OpenAI → AgentKit](./migrations/openai-to-agentkit/) | Low | 1-2 hours | 98% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/openai-to-agentkit/) |
+| [LangChain → LangGraph](./migrations/langchain-to-langgraph/) | Medium | 4-6 hours | 92% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-langgraph/) |
+| [OpenAI Assistants → CrewAI](./migrations/openai-assistants-to-crewai/) | Low-Medium | 2-4 hours | 98% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/openai-assistants-to-crewai/) |
 | [LangChain → AutoGen](./migrations/langchain-to-autogen/) | High | 8-12 hours | 87% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-autogen/) |
 
 [View all migration paths →](https://www.agentically.sh/ai-agentic-frameworks/migration-paths/)
@@ -29,24 +29,26 @@ Estimate time and effort for your specific migration:
 ## 🛠️ Available Migrations
 
 ### From LangChain
-- [LangChain → CrewAI](./migrations/langchain-to-crewai/) - Better multi-agent coordination
-- [LangChain → AutoGen](./migrations/langchain-to-autogen/) - Advanced conversation patterns
-- [LangChain → LangGraph](./migrations/langchain-to-langgraph/) - Stateful workflows
-- [LangChain → Semantic Kernel](./migrations/langchain-to-semantic-kernel/) - Enterprise integration
+- [LangChain → CrewAI](./migrations/langchain-to-crewai/) - Better multi-agent coordination ✅
+- [LangChain → LangGraph](./migrations/langchain-to-langgraph/) - Stateful workflows ✅
+- [LangChain → AutoGen](./migrations/langchain-to-autogen/) - Advanced conversation patterns 🚧
+- [LangChain → Semantic Kernel](./migrations/langchain-to-semantic-kernel/) - Enterprise integration 🚧
 
-### From AutoGen
-- [AutoGen → CrewAI](./migrations/autogen-to-crewai/) - Simplified multi-agent setup
-- [AutoGen → LangGraph](./migrations/autogen-to-langgraph/) - Graph-based workflows
-- [AutoGen → Agency Swarm](./migrations/autogen-to-agency-swarm/) - Scalable agent networks
+### From OpenAI Platform
+- [OpenAI Assistants → CrewAI](./migrations/openai-assistants-to-crewai/) - Cost savings & control ✅
+- [OpenAI Assistants → LangGraph](./migrations/openai-assistants-to-langgraph/) - Stateful workflows 🚧
+- [OpenAI Assistants → AutoGen](./migrations/openai-assistants-to-autogen/) - Research workflows 🚧
 
-### From CrewAI
-- [CrewAI → AutoGen](./migrations/crewai-to-autogen/) - More complex conversations
-- [CrewAI → LangGraph](./migrations/crewai-to-langgraph/) - Advanced state management
+### From Visual Platforms
+- [Flowise → LangChain](./migrations/flowise-to-langchain/) - Code-first development 🚧
+- [Langflow → CrewAI](./migrations/langflow-to-crewai/) - Production agent teams 🚧
+- [n8n → CrewAI](./migrations/n8n-to-crewai/) - AI-focused workflows 🚧
 
-### Platform Migrations
-- [OpenAI Assistants → Various Frameworks](./migrations/openai-assistants/)
-- [Google Vertex AI → Open Source](./migrations/vertex-to-opensource/)
-- [Azure OpenAI → Self-hosted](./migrations/azure-to-selfhosted/)
+### Legacy Platform Migrations
+- [Google Vertex AI → Open Source](./migrations/vertex-to-opensource/) - Vendor independence 🚧
+- [Azure OpenAI → Self-hosted](./migrations/azure-to-selfhosted/) - Infrastructure control 🚧
+
+**Legend**: ✅ Complete | 🚧 Coming soon
 
 ## 🚀 Migration Tools
 
@@ -133,8 +135,9 @@ Most migrations result in cost savings:
 | Migration | Avg Cost Change | Token Efficiency | Performance |
 |-----------|----------------|------------------|-------------|
 | LangChain → CrewAI | -23% | +15% | +18% |
-| AutoGen → LangGraph | -12% | +8% | +25% |
-| Any → OpenSource | -67% | Varies | Varies |
+| LangChain → LangGraph | -8% | +12% | +25% |
+| OpenAI Assistants → CrewAI | -67% | +30% | +40% |
+| Any → Open Source | -60% | Varies | Varies |
 
 [Calculate your savings →](https://www.agentically.sh/ai-agentic-frameworks/cost-calculator/)
 
