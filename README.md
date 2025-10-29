@@ -2,7 +2,7 @@
 
 🔄 Comprehensive guides for migrating between AI agent frameworks. Save weeks of refactoring with step-by-step migrations, code mappings, and gotchas.
 
-[![Migration Guides](https://img.shields.io/badge/Guides-3%20Live%2C%209%20Planned-blue.svg)](https://github.com/agenticallysh/agentic-framework-migration-guides)
+[![Migration Guides](https://img.shields.io/badge/Guides-5%20Live%2C%207%20Planned-blue.svg)](https://github.com/agenticallysh/agentic-framework-migration-guides)
 [![Success Rate](https://img.shields.io/badge/Success%20Rate-94%25-green.svg)](https://www.agentically.sh/ai-agentic-frameworks/migration-success/)
 [![Time Saved](https://img.shields.io/badge/Time%20Saved-60%25-orange.svg)](https://www.agentically.sh/ai-agentic-frameworks/migration-calculator/)
 
@@ -17,7 +17,8 @@ Not sure which migration path to take? Use our [migration assistant →](https:/
 | [LangChain → CrewAI](./migrations/langchain-to-crewai/) | Medium | 3-5 hours | 96% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-crewai/) |
 | [LangChain → LangGraph](./migrations/langchain-to-langgraph/) | Medium | 4-6 hours | 92% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-langgraph/) |
 | [OpenAI Assistants → CrewAI](./migrations/openai-assistants-to-crewai/) | Low-Medium | 2-4 hours | 98% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/openai-assistants-to-crewai/) |
-| [LangChain → AutoGen](./migrations/langchain-to-autogen/) | High | 8-12 hours | 87% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-autogen/) |
+| [Flowise → LangChain](./migrations/flowise-to-langchain/) | Medium | 4-8 hours | 94% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/flowise-to-langchain/) |
+| [Semantic Kernel → AutoGen](./migrations/semantic-kernel-to-autogen/) | Medium-High | 6-12 hours | 89% | [Start →](https://www.agentically.sh/ai-agentic-frameworks/migrate/semantic-kernel-to-autogen/) |
 
 [View all migration paths →](https://www.agentically.sh/ai-agentic-frameworks/migration-paths/)
 
@@ -34,13 +35,17 @@ Estimate time and effort for your specific migration:
 - [LangChain → AutoGen](./migrations/langchain-to-autogen/) - Advanced conversation patterns 🚧
 - [LangChain → Semantic Kernel](./migrations/langchain-to-semantic-kernel/) - Enterprise integration 🚧
 
+### From Microsoft Frameworks
+- [Semantic Kernel → AutoGen](./migrations/semantic-kernel-to-autogen/) - Multi-agent conversations ✅
+- [AutoGen → Agent Framework](./migrations/autogen-to-agent-framework/) - Microsoft's new unified framework 🚧
+
 ### From OpenAI Platform
 - [OpenAI Assistants → CrewAI](./migrations/openai-assistants-to-crewai/) - Cost savings & control ✅
 - [OpenAI Assistants → LangGraph](./migrations/openai-assistants-to-langgraph/) - Stateful workflows 🚧
 - [OpenAI Assistants → AutoGen](./migrations/openai-assistants-to-autogen/) - Research workflows 🚧
 
 ### From Visual Platforms
-- [Flowise → LangChain](./migrations/flowise-to-langchain/) - Code-first development 🚧
+- [Flowise → LangChain](./migrations/flowise-to-langchain/) - Code-first development ✅
 - [Langflow → CrewAI](./migrations/langflow-to-crewai/) - Production agent teams 🚧
 - [n8n → CrewAI](./migrations/n8n-to-crewai/) - AI-focused workflows 🚧
 
